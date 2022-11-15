@@ -1,0 +1,17 @@
+.advantage__icon-list{
+  display: inline-flex;
+  margin-bottom: 30px;
+}
+
+.advantage__icon-item{
+  padding: 25px 102px;
+  width: 270px;
+  height: 120px;
+  background: #F5F4FA;
+border-radius: 4px;
+
+&:not(:first-child){
+  margin-left: 30px;
+  }
+}
+

@@ -1,0 +1,27 @@
+.advantage__wrap{
+  display: flex;
+  }
+
+.advantage__title{
+  margin: 0px 0 10px 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+}
+
+.advantage__item:not(:last-child){
+  margin-right: 30px;
+}
+
+.advantage__text{
+  color: var(--accent-text-color);
+
+  margin: 0;
+
+  font-size: 14px;
+  line-height: 1.7;
+}
